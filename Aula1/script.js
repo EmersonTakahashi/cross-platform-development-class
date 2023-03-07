@@ -84,12 +84,25 @@
 // );
 
 //exercise 6 - I gave up!
-const input = "+351123456789";
-const input2 = "00351123456789";
-const input3 = "(+351)123456789";
-const input4 = "(00351)123456789";
-const phoneRegex = /^\(?(\+|00)351\)?[\d]{9}$/;
-console.log(phoneRegex.test(input));
-console.log(phoneRegex.test(input2));
-console.log(phoneRegex.test(input3));
-console.log(phoneRegex.test(input4));
+// const input = "+351123456789";
+// const input2 = "00351123456789";
+// const input3 = "(+351)123456789";
+// const input4 = "(00351)123456789";
+// const phoneRegex = /^\(?(\+|00)351\)?[\d]{9}$/;
+// console.log(phoneRegex.test(input));
+// console.log(phoneRegex.test(input2));
+// console.log(phoneRegex.test(input3));
+// console.log(phoneRegex.test(input4));
+
+const person = { name: "test", age: 12, email: "testeee" };
+const { email, name, age } = person;
+console.log(name, age, email);
+
+const array = [1, 2, 3, 4, 5];
+const newArray = [...array];
+console.log(newArray);
+
+const test = { ...person, url: "12312" };
+console.log(test);
+
+//8,9,10
