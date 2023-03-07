@@ -83,7 +83,13 @@
 //   }`
 // );
 
-//exercise 6
+//exercise 6 - I gave up!
 const input = "+351123456789";
-const phoneRegex = "";
-console.log(phoneRegex.test());
+const input2 = "00351123456789";
+const input3 = "(+351)123456789";
+const input4 = "(00351)123456789";
+const phoneRegex = /^\(?(\+|00)351\)?[\d]{9}$/;
+console.log(phoneRegex.test(input));
+console.log(phoneRegex.test(input2));
+console.log(phoneRegex.test(input3));
+console.log(phoneRegex.test(input4));
