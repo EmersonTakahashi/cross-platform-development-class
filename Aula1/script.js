@@ -94,15 +94,15 @@
 // console.log(phoneRegex.test(input3));
 // console.log(phoneRegex.test(input4));
 
-const person = { name: "test", age: 12, email: "testeee" };
-const { email, name, age } = person;
-console.log(name, age, email);
+// const person = { name: "test", age: 12, email: "testeee" };
+// const { email, name, age } = person;
+// console.log(name, age, email);
 
-const array = [1, 2, 3, 4, 5];
-const newArray = [...array];
-console.log(newArray);
+// const array = [1, 2, 3, 4, 5];
+// const newArray = [...array];
+// console.log(newArray);
 
-const test = { ...person, url: "12312" };
-console.log(test);
+// const test = { ...person, url: "12312" };
+// console.log(test);
 
-//8,9,10
+//8,9,10 need to do
