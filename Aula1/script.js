@@ -106,3 +106,22 @@
 // console.log(test);
 
 //8,9,10 need to do
+
+//13 exceptions
+console.log("EXERCISE 13");
+function randomNumber() {
+  try {
+    const number = Math.floor(Math.random() * 9);
+
+    if (number % 2 != 0) {
+      throw new Error(`Número impar: ${number}`);
+    }
+    console.log(`Número par: ${number}`);
+  } catch (error) {
+    console.log(error.message);
+  } finally {
+    console.log("Operação terminada.");
+  }
+}
+
+randomNumber();
