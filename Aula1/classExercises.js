@@ -1,3 +1,4 @@
+"use strict";
 class Vehicle {
   constructor(marca, modelo) {
     this.marca = marca;
