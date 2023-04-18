@@ -74,6 +74,7 @@ export default function App() {
 
   return (
     <FlatList
+      style={styles.container}
       keyExtractor={(item) => item.id}
       data={posts}
       renderItem={({ item, i }) => (
@@ -106,7 +107,20 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginLeft: 10,
+    marginRight: 10,
+    marginVertical: 50,
     backgroundColor: "#fff",
   },
   post: {},
 });
+
+//Example of View with flex
+// <View style={{ flex: 1, flexDirection: "row" }}>
+// <View
+//   style={{ height: "50%", width: "50%", backgroundColor: "powderblue" }}
+// ></View>
+// <View
+//   style={{ height: "50%", width: "50%", backgroundColor: "red" }}
+// ></View>
+// </View>

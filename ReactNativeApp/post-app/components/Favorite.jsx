@@ -1,11 +1,10 @@
 import { View, Text, StyleSheet } from "react-native";
 
-function Post(props) {
+function Navbar(props) {
   const { title, body } = props;
   return (
     <View style={styles.item}>
-      <Text style={styles.title}>{title}</Text>
-      <Text>{body}</Text>
+      <image></image>
     </View>
   );
 }
@@ -24,4 +23,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Post;
+export default Navbar;
